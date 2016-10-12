@@ -1,6 +1,30 @@
 body {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: purple;
-    background-color: #d8da3d }
+    
+padding-left: 20em;
+font-family:Microsoft JhengHei, Georgia, "Times New Roman", Times, serif;
+    
+color: #D6D6D6;
+    
+background-color: #323232 }
+
+
+img.myphoto {
+  margin: 20;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 18em }
+
 h1 {
-  font-family: Helvetica, Geneva, Arial,SunSans-Regular, sans-serif }
+  
+    display:block;
+font-family:Microsoft JhengHei, Helvetica, Geneva, Arial,SunSans-Regular, sans-serif }
+
+
+address {
+    
+    top: 0px;
+    left: 0px;
+    margin-top: 20em;
+    height: 500px;
+    border-top: thin dotted }
