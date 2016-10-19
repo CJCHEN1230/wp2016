@@ -40,6 +40,15 @@ font-family:Microsoft JhengHei, Helvetica, Geneva, Arial,SunSans-Regular, sans-s
 
 }
 
+div.board{
+  position: relative;
+  background-color: #fde3a7;
+  color:black;
+  margin-top: 60px;
+  width: 80%;
+  max-width: 800px;  
+}
+
 #main {
     width: 400px;
     height: 400px;
@@ -55,10 +64,28 @@ font-family:Microsoft JhengHei, Helvetica, Geneva, Arial,SunSans-Regular, sans-s
     height: 50px;
 }
 
+@media (max-width: 600px) {
+    .board {
+        width: 90%;
+    }
+}
+
+
+.Box{
+  position: relative;
+}
+
+
+.Box:hover {
+    
+    box-shadow: 2px 2px 0 #3C3C3C;
+}
+
 address {
     display:block;
     top: 0px;
     left: 0px;
     margin-top: 20em;
     height: 500px;
-    border-top: thin dotted }
+    border-top: thin dotted 
+  }
