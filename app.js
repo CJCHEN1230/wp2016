@@ -5,10 +5,24 @@ $(document).ready(function(){
   });
 });
 
-
+var temp="#Box";
+var i=1;
 $(document).ready(function(){
 	$(".btn1").click(function(){
-	  $("#Box2").hide();
-	  $(this).hide();
+	  $(temp+i).hide();	  
+	  i++;
+	  console.log(i);
+	}); 
+});
+
+
+$(document).ready(function(){
+	$(".btn2").click(function(){
+	for(j=1;j<7;j++){
+		  $(temp+j).show();	  		
+		}
+
+	console.log(i);
+	i=1;
 	}); 
 });
